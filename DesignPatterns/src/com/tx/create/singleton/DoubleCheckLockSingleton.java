@@ -18,4 +18,10 @@ public class DoubleCheckLockSingleton {
         }
         return instance;
     }
+
+    public static void main(String[] args) {
+        DoubleCheckLockSingleton instance1 = DoubleCheckLockSingleton.getInstance();
+        DoubleCheckLockSingleton instance2 = DoubleCheckLockSingleton.getInstance();
+        System.out.println(instance1==instance2);
+    }
 }
