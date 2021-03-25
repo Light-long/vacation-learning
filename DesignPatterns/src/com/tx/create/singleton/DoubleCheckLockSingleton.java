@@ -18,4 +18,8 @@ public class DoubleCheckLockSingleton {
         }
         return instance;
     }
+
+    public static void fixedBug() {
+        System.out.println("切换到master修复bug");
+    }
 }
