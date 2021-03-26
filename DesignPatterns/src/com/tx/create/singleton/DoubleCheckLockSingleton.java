@@ -27,7 +27,6 @@ public class DoubleCheckLockSingleton {
         DoubleCheckLockSingleton instance1 = DoubleCheckLockSingleton.getInstance();
         DoubleCheckLockSingleton instance2 = DoubleCheckLockSingleton.getInstance();
         System.out.println(instance1==instance2);
-
     }
 
 }
